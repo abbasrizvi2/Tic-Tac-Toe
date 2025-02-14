@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tic-tac-toe",
+=======
+  "name": "to-do",
+>>>>>>> 18cf99d (TO-DO done with making components)
   "private": true,
   "version": "0.0.0",
   "type": "module",
