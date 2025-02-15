@@ -52,6 +52,8 @@ const Board = ({ users, squares, onPlay }) => {
     if (winnerSquare(squares) || squares[i]) return; //  Prevent changing an already filled square it means
     // sqaures[i](truthy) not null already have some value in it so return it
     // if it is false than leave this if statement and move forward
+    // if found winner stop game and you can't change the already present values
+
 
     const nextSquare = squares.slice();
     // *  What does this nextSquare do?
